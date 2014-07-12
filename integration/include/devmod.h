@@ -1,0 +1,5 @@
+#define DEVMOD_IOCTL_MEMORY_VIEW 1
+#define DEVMOD_IOCTL_MEMORY_DUMP 2
+#define TIMER_DELAY HZ
+
+#define DEVMOD_DEVICE "/dev/devmod"

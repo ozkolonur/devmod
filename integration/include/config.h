@@ -1,0 +1,36 @@
+/*
+ * Automatically generated header file: don't edit
+ */
+
+#define AUTOCONF_INCLUDED
+
+/* Version Number */
+#define BB_VER "(null)"
+#define BB_BT "(null)"
+
+#define HAVE_DOT_CONFIG 1
+
+/*
+ * Build Options
+ */
+#define CONFIG_TARGET_KERNEL_26 1
+#undef CONFIG_TARGET_KERNEL_24
+#undef CONFIG_VERBOSE
+#undef CONFIG_STATIC
+#undef USING_CROSS_COMPILER
+#define EXTRA_CFLAGS_OPTIONS ""
+
+/*
+ * General Configuration
+ */
+#define CONFIG_FEATURE_BUFFERS_USE_MALLOC 1
+#undef CONFIG_FEATURE_BUFFERS_GO_ON_STACK
+#undef CONFIG_FEATURE_BUFFERS_GO_IN_BSS
+#undef CONFIG_FEATURE_VERBOSE_USAGE
+#undef CONFIG_FEATURE_INSTALLER
+#undef CONFIG_LOCALE_SUPPORT
+#undef CONFIG_FEATURE_DEVFS
+#undef CONFIG_FEATURE_DEVPTS
+#undef CONFIG_FEATURE_CLEAN_UP
+#undef CONFIG_FEATURE_SUID
+#undef CONFIG_SELINUX

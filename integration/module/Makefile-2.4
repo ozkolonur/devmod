@@ -1,0 +1,16 @@
+CFLAGS := -c -nostdinc
+INC := -I/usr/src/linux/include
+CC := /usr/bin/i686-pc-linux-gnu-gcc
+
+ifneq ($(V),)
+	CFLAGS += -Wall
+endif
+
+all: devmod
+
+devmod: devmod.c
+	$(CC) $(CFLAGS) $(INC) -o devmod devmod.c 
+    
+clean:
+	rm -f devmod
+
